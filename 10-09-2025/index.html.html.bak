@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+	
+<head>
+	<title>What is the Web?</title>
+</head>
+
+<body>
+	<h1>What is the Web?</h1>
+	<img src = "web_image.webp" width = "150" height = "150">
+	
+	<p>The <strong>Web</strong> is a collection of <em>documents</em> and applications you open in a browser. it is build using three main technologies: HTML, CSS, and Javascript.</p>
+		
+	
+	
+	<hr>
+
+	<h2>Core Technologies</h2>
+	
+	<ol>
+		<strong><li>Html</li></strong>
+		<strong><li>Css</li></strong>
+		<strong><li>Javascript</li></strong>
+	</ol>
+	
+	<img src = "hcj.jpg" width = "auto" height = "150">
+	
+	<h2>Why They Matter</h2>
+	
+	<p>Together, these three form the backbone of every modern website:</p>
+	
+	<ul>
+		<li><strong>Html</strong>: provides structure (headings, paragraph, images)</li>
+		<li><strong>Css</strong>: Defines Style (colors, layout, fonts)</li>
+		<li><strong>Javascript</strong>: Add Interactivity and dynamic behavior</li>
+	</ul>
+	
+	<h2>Quick Comparison</h2>
+	<center>
+		<table border="1" cellpadding="8" cellspacing="0">	
+			<thead>
+				<tr>
+					<th>Layer</th>
+					<th>Role</th>
+					<th>Example</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>HTML</td>
+					<td>Structure</td>
+					<td>h1, p, img</td>
+				</tr>
+				<tr>
+					<td>CSS</td>
+					<td>Presentation</td>
+					<td>Colors, layout, fonts</td>
+				</tr>
+				<tr>
+					<td>Javascript</td>
+					<td>Behaviour</td>
+					<td>Events, animations</td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+</body>
+</html>
+	
+	

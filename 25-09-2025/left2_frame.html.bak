@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Left Frame</title>
+	</head>
+	<body bgcolor = "grey">
+		<br>
+		<br>
+		<br>
+		<a href = "right3.html"><h2 align="center">MES</h2></a>
+	</body>
+</html>

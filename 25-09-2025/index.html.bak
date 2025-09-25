@@ -1,0 +1,52 @@
+fram.html
+<html>
+<frameset rows="30%, 70%">
+ <!-- Top horizontal frame -->
+ <frame src="top_frame.html" name="topFrame" noresize>
+ <!-- Bottom frame, further divided vertically -->
+ <frameset cols="25%, 50%, 25%">
+ <!-- Left vertical frame -->
+ <frame src="left_frame.html" name="leftFrame">
+ <!-- Middle vertical frame -->
+ <frame src="middle_frame.html" name="middleFrame">
+ <!-- Right vertical frame -->
+ <frame src="right_frame.html" name="rightFrame">
+ </frameset>
+ <noframes>
+ <body>
+ Your browser does not support frames.
+ </body>
+ </noframes>
+</frameset>
+</html>
+top_frame.html
+<html>
+<head><title>Top Frame</title></head>
+<body bgcolor = "lightblue">
+ <h1 align="center">Top Frame</h1>
+</body>
+</html>
+left_frame.html
+<html>
+<head><title>Left Frame</title></head>
+<body bgcolor = "lightgreen">
+ <h2 align="center">This is the Left Frame</h2>
+</body>
+</html>
+middle_frame.html
+<html>
+<head><title>Middle Frame</title></head>
+<body bgcolor="lightcoral">
+ <h2 align = "center">This is the Middle Frame</h2>
+</body>
+</html>
+right_frame.html
+<html>
+<head><title>Right Frame</title></head>
+<body bgcolor= "lightgoldenyellow">
+ <h2 align="center">This is the Right Frame</h2>
+</body>
+</html>
+• <frameset rows="30%, 70%">: This is the outer frameset, dividing the browser window horizontally into two
+rows. The top row takes 30% of the height, and the bottom row takes 70%
+• <frame src="top_fram

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>YOU Foods</title>
+</head>
+<body>
+		<h1>YOU Foods</h1>
+		<hr>
+		<br>
+		<br>
+		<div>
+			<a href = "detail.html">
+				<h2>Pinwheel pizza crusts recipe</h2>
+				<img src="pizza.jpg" width="auto" height="150">
+			</a>
+		</div>
+</body>

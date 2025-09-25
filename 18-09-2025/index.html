@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rowspan and Colspan</title>
+</head>
+<body>
+  <h1>Score of Team1, Team2 and Team3</h1>
+
+  <table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+      <tr>
+        <th colspan="3"> 
+          Team Scores Summary
+        </th>
+      </tr>
+      <tr>
+        <th>Teams</th>
+        <th>Names</th> 
+        <th>Score</th>
+      </tr>
+
+    </thead>
+    <tbody>
+
+      <tr>
+        <td rowspan="2">Team1</td>
+        <td>John Smith</td> 
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Alice Johnson</td>
+        <td>90</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Team2</td>
+        <td>Bob Brown</td>
+        <td>75</td>
+      </tr>
+      <tr>
+        <td>Emma Wilson</td>
+        <td>88</td>
+      </tr>
+      <tr>
+        <td>David Lee</td>
+        <td>92</td>
+      </tr>
+
+    </tbody>
+  </table>
+</body>
+</html>

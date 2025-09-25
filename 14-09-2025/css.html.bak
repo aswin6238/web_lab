@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Css</title>
+</head>
+<body>
+		<h1>CSS</h1>
+		<hr>
+		<br>
+		<br>
+			<a href = "css.html">
+				<img src="css.png" width="auto" height="150">
+			</a>
+		<p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML </p>
+</body>
