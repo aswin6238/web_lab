@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body style = "background-color: #D4CDCD;">
+    <h1 style = "text-align: center; font-size: 60px; color: #C73A08; font-style: oblique;">Ice Cream</h1>
+	<p style = "font-weight: 600; font-style: italic; font-size: 50px; font-family: Times New Roman; text-align: center; color: #185080; margin-bottom: 50px;">Ice cream is a frozen dessert 
+	typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla,
+	or with fruit, such as strawberries or peaches. Food colouring is sometimes added in addition to stabilizers.</p>
+	
+	<h1 style="color: #4CAF50; font-family: 'Arial';">Ice Cream Ingredients</h1>
+    <ul style="list-style-type: square; margin-left: 20px; font-size: 20px;">
+        <li style="color: #333; margin-bottom: 8px;">Heavy cream</li>
+        <li style="color: #333; margin-bottom: 8px;">Whole milk</li>
+        <li style="color: #333; margin-bottom: 8px;">Granulated sugar</li>
+        <li style="color: #333; margin-bottom: 8px;">Vanilla extract (or other flavorings)</li>
+        <li style="color: #333; margin-bottom: 8px;">Egg yolks (optional, for a richer custard base)</li>
+        <li style="color: #333; margin-bottom: 8px;">Salt (a pinch, to enhance flavor)</li>
+    </ul>
+	<h1 style="color: #6E4C18; font-family: 'Arial'; margin-top: 60px;">Steps to Make Ice Cream</h1>
+	<ol style="margin-left: 20px; font-size: 20px;">
+		<li style="color: #333; margin-bottom: 8px;">Mix cream, milk, and sugar.</li>
+		<li style="color: #333; margin-bottom: 8px;">Add flavorings and chill the mixture.</li>
+		<li style="color: #333; margin-bottom: 8px;">Freeze and churn until creamy.</li>
+	</ol>
+</body>
+</html>
