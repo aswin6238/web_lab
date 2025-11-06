@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f5f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 30px;
+        }
+
+        form {
+            width: 500px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 25px 35px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #444;
+        }
+		
+		
+		.gen {
+			display: inline;
+		}
+		
+		
+		#nationality {
+			margin-top: 10px;
+		}
+		
+		
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="submit"], button {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"] {
+            background-color: orange;
+            color: white;
+        }
+		
+		button {
+		background-color: black;
+		color: white;
+		}
+
+
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" placeholder="Password" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <label for="mob">Mobile:</label>
+        <input type="tel" maxlength="10" pattern="\d{10}" id="mob" placeholder="Mobile" required>
+
+        <label for="add">Address:</label>
+        <textarea id="add" placeholder="Enter your Address"></textarea>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" required>
+
+		<label>Gender:</label>
+		<input type="radio" id="male" name="gender" checked>
+		<label for="male" class = "gen">Male</label>
+		<input type="radio" id="female" name="gender">
+		<label for="female" class = "gen">Female</label>
+		<input type="radio" id="other" name="gender">
+		<label for="other" class = "gen">Other</label>
+
+        <label for="nat" id = "nationality">Nationality:</label>
+        <select id="nat" name="nat">
+            <option value="indian">Indian</option>
+            <option value="german">German</option>
+            <option value="american">American</option>
+        </select>
+
+        <fieldset>
+            <legend>Languages Known:</legend>
+            <input type="checkbox" id="eng" name="eng">
+            <label for="eng">English</label><br>
+
+            <input type="checkbox" id="mal" name="mal">
+            <label for="mal">Malayalam</label><br>
+
+            <input type="checkbox" id="hin" name="hin">
+            <label for="hin">Hindi</label>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <button id="cancel" type="button">Cancel</button>
+    </form>
+</body>
+</html>

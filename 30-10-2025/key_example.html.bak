@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keyboard Event Example</title>
+  </head>
+  <body>
+    <h2>Press any key on your keyboard 👇</h2>
+    <h1 id="output">---</h1>
+	
+
+    <script>
+	let x = 50;
+	let y = 45;
+	
+	z = x + y;
+	console.log(x + y);
+	
+	const output = document.getElementById("output");
+	output.innerHTML = z;
+	
+    </script>
+  </body>
+</html>
