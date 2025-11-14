@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome To Registration Form</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 6px;
+  width: 300px;
+  border: 1px solid black; 
+}
+
+h2 { 
+	text-align: center; 
+	color: #333; 
+}
+	
+label { 
+	display: block; 
+	margin: 10px 0 5px; 
+	color: #333; 
+	font-weight: bold;
+}
+	
+input, button {
+  width: 100%; 
+  padding: 8px; 
+  font-size: 14px; 
+  box-sizing: border-box;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-bottom: 12px;
+}
+
+input:focus { 
+	border-color: #0078d7; 
+	outline: none;
+}
+
+button {
+  background: #0078d7; 
+  color: #fff; 
+  border: none; 
+  cursor: pointer;
+}
+
+button:hover { 
+	background: #005fa3; 
+}
+</style>
+
+<script>
+function validate() {
+  let name = document.getElementById("nam").value.trim();
+  let passwd = document.getElementById("pwd").value.trim();
+  let phone = document.getElementById("pno").value.trim();
+
+  if (name === "") {
+    alert('Name cannot be blank');
+    return false;
+  } else if (!isNaN(name)) {
+    alert('Name must contain only alphabets!');
+    return false;
+  } else if (passwd === "") {
+    alert('Enter a password');
+    return false;
+  } else if (passwd.length < 8) {
+    alert('Password must be at least 8 characters long');
+    return false;
+  } else if (phone === "") {
+    alert('Enter your phone number');
+    return false;
+  } else if (isNaN(phone)) {
+    alert('Invalid phone number (numbers only)');
+    return false;
+  } else if (phone.length !== 10) {
+    alert('Phone number must be exactly 10 digits');
+    return false;
+  } else {
+    alert('Thank you for registration!');
+    return true;
+  }
+}
+</script>
+</head>
+
+<body>
+  <form onsubmit="return validate()">
+    <h2>Registration Form</h2>
+
+    <label for="nam">Name</label>
+    <input type="text" id="nam" placeholder="Enter your name">
+
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" placeholder="Enter your password">
+
+    <label for="pno">Phone Number</label>
+    <input type="text" id="pno" placeholder="Enter your 10-digit phone number">
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
