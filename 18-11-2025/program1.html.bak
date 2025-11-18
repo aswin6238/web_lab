@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Change Background Color</title>
+
+<style>
+    body {
+        text-align: center;
+        margin-top: 100px;
+        transition: background-color 0.4s ease; /* smooth color fade */
+        font-family: Arial, sans-serif;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        background-color: #222;
+        color: white;
+    }
+
+    button:hover {
+        background-color: #444;
+    }
+</style>
+
+<script>
+function changeColor() {
+    // Generate random RGB values
+    var r = Math.floor(Math.random() * 256);
+    var g = Math.floor(Math.random() * 256);
+    var b = Math.floor(Math.random() * 256);
+
+    // Create RGB color string
+    var color = "rgb(" + r + "," + g + "," + b + ")";
+
+    // Apply it as background color
+    document.body.style.backgroundColor = color;
+}
+</script>
+
+</head>
+<body>
+    <h2>Click the button to change background color</h2>
+    <button onclick="changeColor()">Change Color</button>
+</body>
+</html>
